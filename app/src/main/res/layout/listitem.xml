@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="blocksDescendants">
+    <ImageButton
+        android:id="@+id/btnDeleteLoc"
+        android:layout_width="30sp"
+        android:layout_height="30sp"
+        android:src="@android:drawable/ic_delete"
+        android:layout_gravity="right"/>
+    <TextView
+        android:id="@+id/lblPlaceName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="장소 : "
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        />
+    <TextView
+        android:id="@+id/lblAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="주소 : "
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        />
+    <TextView
+        android:id="@+id/lblType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="종류 :"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:layout_margin="5sp"
+        />
+
+    <RatingBar
+        android:id="@+id/rateRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="5sp"
+        android:isIndicator="true"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:id="@+id/btnViewMap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="명소 보기"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/button"
+        android:textColor="#FE5295"
+        android:textSize="17sp"
+        android:layout_margin="5sp"
+       />
+</LinearLayout>

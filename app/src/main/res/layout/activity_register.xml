@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/purple2"
+    tools:context="com.example.select_placesapp.RegisterActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="SIGN UP"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="30sp"
+        android:padding="15dp"
+        android:layout_marginTop="80sp"
+        />
+
+    <LinearLayout
+        android:id="@+id/input_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/txtRegFullname"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_middle"
+        android:hint="Please enter your name"
+        android:textAlignment="center"
+        android:layout_margin="15sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtRegUsername"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:background="@drawable/edit_text_middle"
+        android:hint="Please enter your ID"
+        android:textAlignment="center"
+        android:layout_margin="15sp"
+        android:textColor="@android:color/black"/>
+    <EditText
+        android:id="@+id/txtRegPassword"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:hint="Please enter a password"
+        android:background="@drawable/edit_text_middle"
+        android:textAlignment="center"
+        android:layout_margin="15sp"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"/>
+    <EditText
+        android:id="@+id/txtRegRetype"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textSize="15sp"
+        android:hint="Please enter your password again"
+        android:background="@drawable/edit_text_middle"
+        android:textAlignment="center"
+        android:layout_margin="15sp"
+        android:textColor="@android:color/black"
+        android:inputType="textPassword"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SIGN UP"
+        android:fontFamily="sans-serif"
+        android:background="@drawable/button"
+        android:textStyle="bold"
+        android:textColor="#FE5295"
+        android:textSize="17sp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:layout_marginTop="3sp" />
+</LinearLayout>
